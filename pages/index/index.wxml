@@ -1,0 +1,10 @@
+<swiper indicator-dots="true" autoplay="true" interval="5000">
+	<block wx:for="{{banner_image}}">
+		<swiper-item>
+			<image src="{{item.image}}" mode="aspectFit" class="swiper_item_image" data-url="{{item.url}}" bindtap="go_banner_detail"></image>
+		</swiper-item>
+	</block>
+</swiper>
+<block class="girls_container" wx:for="{{girls}}">
+	<image class="girls_image" src="{{item.url}}" data-url="{{item.url}}" bindtap="preview_girl_image"></image>
+</block>

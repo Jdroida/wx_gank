@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/webpage/web_detail",
+    "pages/study/study",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "gank",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "image/girl_navigate.png",
+        "selectedIconPath": "image/girl_navigate_select.png",
+        "text": "妹子"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "iconPath": "image/study.png",
+        "selectedIconPath": "image/study_selected.png",
+        "text": "学习"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
